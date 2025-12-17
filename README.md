@@ -1,4 +1,4 @@
-## PRISM: A multi-modal dataset for learning-based building performance modeling
+# PRISM: A multi-modal dataset for learning-based building performance modeling
 
 This repository provides the supporting code for the **PRISM (Performance Representation Informed by Shape and Morphology)** dataset. It is a publicly available dataset that systematically links building geometry with high-fidelity simulation outputs across multiple environmental domains. PRISM features high morphological diversity, spanning basic extrusions to highly articulated forms; multi-modal geometric representations, including watertight surface meshes, signed distance fields and structured descriptors; and multi-physics simulation outputs from computational fluid dynamics (velocity, pressure) and solar exposure (sky view factor by sky patch). PRISM supports a wide range of research applications, including surrogate modeling, geometry-conditioned performance prediction, inverse design, generative modeling, and large-scale design-space exploration.
 
