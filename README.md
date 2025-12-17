@@ -51,11 +51,15 @@ This dataset is intended to support a wide range of early-stage design applicati
 When using or extending this code or dataset, please cite using the following:
 
 ```
-@misc{prism2025,
-  title  = {PRISM: A multi-modal dataset for learning-based building performance modeling},
-  author = {Anonymous},
-  year   = {2025},
-  url    = {https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea}
+@dataset{mokhtarPRISMMultiModalDataset2025,
+  title = {{{PRISM}}: {{A Multi-Modal Dataset}} for {{Learning-Based Building Performance Modeling}}},
+  shorttitle = {{{PRISM}}},
+  author = {Mokhtar, Sarah and Mueller, Caitlin},
+  date = {2025},
+  publisher = {Harvard Dataverse},
+  doi = {10.7910/DVN/4IWMVF},
+  url = {[https://github.com/samokhtar/PRISM](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)}
+  repository = {https://github.com/samokhtar/PRISM}
 }
 ```
 
