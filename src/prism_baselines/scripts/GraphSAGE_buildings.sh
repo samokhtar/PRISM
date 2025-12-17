@@ -1,0 +1,26 @@
+python -u run.py \
+--gpu 1 \
+--data_path /prism_dataset/ \
+--loader building_design \
+--num_workers 18 \
+--geotype unstructured \
+--task steady_design_buildings \
+--max_points 0 \
+--space_dim 3 \
+--fun_dim 7 \
+--out_dim 4 \
+--model GraphSAGE \
+--n_hidden 256 \
+--n_heads 8 \
+--n_layers 4 \
+--mlp_ratio 2 \
+--slice_num 32 \
+--optimizer Adam \
+--unified_pos 0 \
+--ref 8 \
+--batch-size 1 \
+--epochs 200 \
+--use_orig_mesh 0 \
+--eval 0 \
+--save_name building_design_GraphSAGE \
+--resume \

@@ -1,0 +1,25 @@
+python -u run.py \
+--gpu 0 \
+--data_path /prism_dataset/ \
+--loader building_design \
+--num_workers 18 \
+--geotype unstructured \
+--task steady_design_buildings \
+--max_points 500000 \
+--space_dim 3 \
+--fun_dim 7 \
+--out_dim 4 \
+--model Transolver \
+--n_hidden 256 \
+--n_heads 8 \
+--n_layers 4 \
+--mlp_ratio 2 \
+--slice_num 32 \
+--optimizer Adam \
+--unified_pos 0 \
+--ref 8 \
+--batch-size 1 \
+--epochs 200 \
+--eval 0 \
+--save_name building_design_Transolver \
+--resume \
